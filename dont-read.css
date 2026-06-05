@@ -1,0 +1,16 @@
+.toc-anchor {
+    scroll-margin-top: 95px;
+}
+@media only screen and (max-width: 600px) {
+    .mobile-break {
+        display: block;
+    }
+    .toc-anchor {
+        scroll-margin-top: 10px;
+    }
+    .mobile-small {
+        font-size: 28px;
+        line-height: 1em;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python \"C:/Users/rjsna/AppData/Local/Temp/cp_inspect.py\")",
+      "Bash(py \"C:/Users/rjsna/AppData/Local/Temp/cp_inspect.py\")",
+      "Bash(python \"C:/Users/rjsna/AppData/Local/Temp/cp_probe.py\")",
+      "Bash(python \"C:/Users/rjsna/AppData/Local/Temp/cp_gen.py\")",
+      "Bash(python \"C:/Users/rjsna/AppData/Local/Temp/cp_probe2.py\")",
+      "Bash(python \"C:/Users/rjsna/AppData/Local/Temp/cp_gen.py\" write)",
+      "Bash(python \"C:/Users/rjsna/AppData/Local/Temp/cp_verify.py\")",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import tempfile,os; print\\('TEMP:', tempfile.gettempdir\\(\\)\\)\")",
+      "Bash(xxd)",
+      "Bash(grep -oP 'Medicaid \\\\\\\\?\\\\\\\\?nProvider' template.json)",
+      "Bash(echo \"=== count of 'Alabama Medicaid \\\\\\\\nProvider' literal ===\")",
+      "Bash(grep -oc 'Alabama Medicaid \\\\\\\\nProvider Enrollment Services' template.json)",
+      "Bash(grep -oP '@type\\\\\\\\\\\\\\\\?\": ?\\\\\\\\\\\\\\\\?\"City\\\\\\\\\\\\\\\\?\", ?\\\\\\\\\\\\\\\\?\"name\\\\\\\\\\\\\\\\?\": ?\\\\\\\\\\\\\\\\?\"Birmingham.{120}' template.json)",
+      "Bash(grep -oP '.{20}@type.{1,8}State.{1,30}Alabama.{40}' template.json)",
+      "Bash(py --version)",
+      "Bash(grep -oc 'What\\\\\\\\u2019s' template.json)",
+      "Bash(grep -oP 'application\\\\\\\\\\\\\\\\/ld\\\\+json' template.json)",
+      "Bash(grep -oP '\\\\\\\\\\\\\\\\\"@type\\\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\\\"State\\\\\\\\\\\\\\\\\"' template.json)",
+      "Bash(grep -oP '\\\\\\\\\\\\\\\\\"@type\\\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\\\"City\\\\\\\\\\\\\\\\\"' template.json)",
+      "PowerShell(python \"C:\\\\Users\\\\rjsna\\\\AppData\\\\Local\\\\Temp\\\\cp_gen_arkansas.py\")"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+Using template.json as the base and state-page.md as the copy mapping reference, replace all Alabama-specific content with the Arkansas copy from copy/arkansas.md and save the output as output/arkansas.json.
+
+Generate this batch. Do the following:
+
+copy/indiana.md
+copy/iowa.md
+copy/missouri.md
+copy/nevada.md
+copy/oklahoma.md
