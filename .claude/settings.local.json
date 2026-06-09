@@ -21,7 +21,21 @@
       "Bash(grep -oP 'application\\\\\\\\\\\\\\\\/ld\\\\+json' template.json)",
       "Bash(grep -oP '\\\\\\\\\\\\\\\\\"@type\\\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\\\"State\\\\\\\\\\\\\\\\\"' template.json)",
       "Bash(grep -oP '\\\\\\\\\\\\\\\\\"@type\\\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\\\"City\\\\\\\\\\\\\\\\\"' template.json)",
-      "PowerShell(python \"C:\\\\Users\\\\rjsna\\\\AppData\\\\Local\\\\Temp\\\\cp_gen_arkansas.py\")"
+      "PowerShell(python \"C:\\\\Users\\\\rjsna\\\\AppData\\\\Local\\\\Temp\\\\cp_gen_arkansas.py\")",
+      "Bash(git config *)",
+      "Bash(git ls-remote *)",
+      "Bash(git ls-tree *)",
+      "Bash(git --no-pager diff -- .claude/settings.local.json)",
+      "Bash(git push *)",
+      "Bash(git remote *)",
+      "PowerShell($gh = Get-Command gh -ErrorAction SilentlyContinue; if \\($gh\\) { Write-Output \"gh found: $\\($gh.Source\\)\"; gh --version } else { Write-Output \"gh: NOT installed\" })",
+      "Bash(echo -n \"coverage-area\\\\\\\\/maryland \\(escaped\\): \")",
+      "Bash(echo \"=== escaped slug coverage-area\\\\\\\\/illinois ===\")",
+      "Bash(echo -n \"coverage-area\\\\\\\\/maine \\(escaped\\): \")",
+      "Bash(echo -n \"coverage-area\\\\\\\\/kansas \\(escaped\\): \")",
+      "Bash(grep -oF \"coverage-area\\\\\\\\/michigan\" output/michigan.json)",
+      "Bash(grep -oF \"contractingproviders.com\\\\\\\\/coverage-area\\\\\\\\/michigan\" output/michigan.json)",
+      "WebSearch"
     ]
   }
 }
